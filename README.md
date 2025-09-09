@@ -20,7 +20,14 @@
 
 1. Build the interpreter:
 ```bash
-go build -o fuckoff main.go
+git clone https://github.com/ZeroPvlse/fu
+
+cd fu
+
+go build -o fu main.go
+
+# this is for runing it globally lol
+sudo mv fu /usr/local/bin/
 ```
 
 2. Create your first script (`hello.fu`):
@@ -31,7 +38,7 @@ sysinfo
 
 3. Run it:
 ```bash
-./fuckoff hello.fu
+./fu hello.fu
 ```
 
 ## Language Reference
@@ -379,7 +386,7 @@ Line 12: scan requires host, start_port, end_port
 
 All FU scripts must use the `.fu` extension:
 ```bash
-./fuckoff myscript.fu
+./fu myscript.fu
 ```
 
 ## Contributing
