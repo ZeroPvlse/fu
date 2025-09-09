@@ -1,5 +1,10 @@
 # FU - Cybersecurity Scripting Language
 
+<p align="center">
+  <img src="logo.png" alt="FU Logo" width="300"/>
+</p>
+
+
 **FU** (short for "Fuck You") is a simple yet powerful scripting language designed specifically for cybersecurity professionals, ethical hackers, and security researchers. It provides all the essential tools you need for penetration testing, automation, and security analysis without the complexity of learning Python or other full programming languages.
 
 ## Why FU?
